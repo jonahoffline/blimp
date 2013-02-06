@@ -48,6 +48,8 @@ module Blimp
 
 
       def define_attribute_methods(attributes, read_only_attributes)
+        common_attributes = %w[id date_created date_modified resource_uri]
+        read_only_attributes = read_only_attributes | common_attributes
         @attributes = attributes | read_only_attributes
 
         @attributes.each do |name|
@@ -59,7 +61,6 @@ module Blimp
 
       def define_readonly_attributes(attributes)
         attributes.each do |name|
-          @attributes.push name
           define_method(name) { self[name] }
           define_method("#{name}?") {!self[name]}
         end
@@ -84,7 +85,7 @@ module Blimp
     end
 
     def []=(key,value)
-      @attributes[key] = value
+      @attributes[key] = value if self.respond_to?(key)
     end
 
     def [](key)
@@ -111,7 +112,8 @@ module Blimp
         attributes[key] = val
       end
       method = self.new? ? 'post' : 'put'
-      Blimp::API.send method, uri, body: attributes.to_json
+      self.attributes = Blimp::API.send(method, uri, body: attributes.to_json).parsed_response
+      return self
     end
 
   end
