@@ -6,7 +6,7 @@ require 'blimp/version'
 Gem::Specification.new do |gem|
   gem.name          = "blimp"
   gem.version       = Blimp::VERSION
-  gem.authors       = ["Blake Williams"]
+  gem.authors       = ["Blake Williams", "Sixteen Eighty"]
   gem.email         = ["blake@blakewilliams.me"]
   gem.description   = %q{Ruby gem that implements the Blimp Public API http://dev.getblimp.com/}
   gem.summary       = %q{Ruby bindings to the Blimp API}
