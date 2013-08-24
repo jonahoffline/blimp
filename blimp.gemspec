@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'blimp/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = 'jonahoffline-blimp'
+  gem.name          = 'blimp'
   gem.version       = Blimp::VERSION
   gem.authors       = ['Blake Williams', 'Jonah Ruiz']
   gem.email         = ['jonah@pixelhipsters.com']
