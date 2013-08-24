@@ -9,6 +9,10 @@ Ruby gem that implements [Blimp's](http://www.getblimp.com/) public API.
 Add this line to your application's Gemfile:
 
     gem 'jonahoffline-blimp'
+    
+NOTE: Must include the httparty gem:
+
+    gem 'httparty'
 
 And then execute:
 
