@@ -1,5 +1,15 @@
 # Blimp Changelog
 
+
+## 0.0.4
+
+Released August 25, 2013 ([0.0.4](https://github.com/jonahoffline/blimp/tree/v0.0.4)).
+
+* Fix incorrect dependency type in gemspec for httparty.
+* Update gemspec gem name from 'jonahoffline-blimp' to 'blimp'.
+* Update version to 0.0.4.
+
+
 ## 0.0.3
 
 Released August 23, 2013 ([0.0.3](https://github.com/jonahoffline/blimp/tree/v0.0.3)).
