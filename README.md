@@ -1,4 +1,4 @@
-# Blimp [![Gem Version](https://badge.fury.io/rb/jonahoffline-blimp.png)](http://badge.fury.io/rb/jonahoffline-blimp) [![Dependency Status](https://gemnasium.com/jonahoffline/blimp.png)](https://gemnasium.com/jonahoffline/blimp)
+# Blimp [![Gem Version](https://badge.fury.io/rb/blimp.png)](http://badge.fury.io/rb/blimp) [![Dependency Status](https://gemnasium.com/jonahoffline/blimp.png)](https://gemnasium.com/jonahoffline/blimp)
 
 Ruby gem that implements [Blimp's](http://www.getblimp.com/) public API.
 
