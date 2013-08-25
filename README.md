@@ -2,17 +2,11 @@
 
 Ruby gem that implements [Blimp's](http://www.getblimp.com/) public API.
 
-**Note:** This is a maintained fork of the Blimp gem by [Blake Williams](https://github.com/sixteeneighty/blimp).
-
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'jonahoffline-blimp'
-    
-NOTE: Must include the httparty gem:
-
-    gem 'httparty'
+    gem 'blimp'
 
 And then execute:
 
@@ -20,7 +14,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install jonahoffline-blimp
+    $ gem install blimp
 
 
 ## Usage
