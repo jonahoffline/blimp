@@ -1,5 +1,10 @@
 # Blimp Changelog
 
+## 0.0.5
+
+Released September 12, 2013 ([0.0.5](https://github.com/jonahoffline/blimp/tree/v0.0.5)).
+
+* Add User-Agent to HTTP Headers.
 
 ## 0.0.4
 
