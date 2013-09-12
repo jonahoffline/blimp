@@ -10,7 +10,8 @@ module Blimp
           'content-type' => 'application/json',
           'Authorization' => "ApiKey #{Blimp.username}:#{Blimp.api_key}",
           'X_BLIMP_APPID' => Blimp.app_id,
-          'X_BLIMP_SECRET' => Blimp.app_secret
+          'X_BLIMP_SECRET' => Blimp.app_secret,
+          'User-Agent' => "Blimp-gem/#{Blimp::VERSION}"
         }
       end
 
