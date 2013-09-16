@@ -53,3 +53,7 @@ project.save # Attempts to save the project's changes
 3. Commit your changes 
 4. Push to the your fork
 5. Create new Pull Request
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jonahoffline/blimp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
