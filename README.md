@@ -1,4 +1,8 @@
-# Blimp [![Gem Version](https://badge.fury.io/rb/blimp.png)](http://badge.fury.io/rb/blimp) [![Dependency Status](https://gemnasium.com/jonahoffline/blimp.png)](https://gemnasium.com/jonahoffline/blimp)
+# Blimp
+[![Gem Version](https://badge.fury.io/rb/blimp.png)](http://badge.fury.io/rb/blimp)
+[![Dependency Status](https://gemnasium.com/jonahoffline/blimp.png)](https://gemnasium.com/jonahoffline/blimp)
+[![Code Climate](https://codeclimate.com/github/jonahoffline/blimp.png)](https://codeclimate.com/github/jonahoffline/blimp)
+[![Gitter chat](https://badges.gitter.im/jonahoffline/blimp.png)](https://gitter.im/jonahoffline/blimp)
 
 Ruby gem that implements [Blimp's](http://www.getblimp.com/) public API.
 
@@ -39,13 +43,16 @@ project.name = "New Project Name" # Set the name of the project
 project.save # Attempts to save the project's changes
 ```
 
-
 ## Todo
 
 * Start testing the gem with Minitest
 * Handle required fields when creating new resources
 * Have better error coverage
 
+## Discussion
+If you have any questions, ideas or jokes:
+
+[![Gitter chat](https://badges.gitter.im/jonahoffline/blimp.png)](https://gitter.im/jonahoffline/blimp)
 
 ## Contributing
 
@@ -53,7 +60,3 @@ project.save # Attempts to save the project's changes
 3. Commit your changes 
 4. Push to the your fork
 5. Create new Pull Request
-
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jonahoffline/blimp/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
